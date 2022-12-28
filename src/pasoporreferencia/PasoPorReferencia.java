@@ -11,6 +11,6 @@ public class PasoPorReferencia {
     }
 
     public static void cambiarValor (Persona persona) { // paso por valor, pero por referencia
-        persona.nombre = "Karla";                      // cuando se termina este metodo persona se destruye.  
+        persona.nombre = "Karla";                      // cuando se termina este metodo persona se destruye.
     }
 }
