@@ -4,6 +4,18 @@ public class Aritmetica {
     int a;
     int b;
 
+    // Constructor vacio
+    public Aritmetica(){
+        System.out.println("Ejecutando contructor");
+    }
+
+    // Constructor con args - sobrecarga de constructores por tener + de 1
+    public Aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+        System.out.println("Ejecutando constructor con args");
+    }
+
     public void sumar(){
         int resultado = a + b;
         System.out.println("resultado = " + resultado);
