@@ -1,7 +1,7 @@
 package dominio;
 
 public class Persona   {
-    private String nombre;
+    private String nombre;  // anything other than public, cannot be accessed from the outside.
     private double sueldo;
     private boolean eliminado;
 
