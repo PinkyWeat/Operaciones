@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Operaciones.iml" filepath="$PROJECT_DIR$/Operaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/encapsulamiento/encapsulamiento.iml" filepath="$PROJECT_DIR$/encapsulamiento/encapsulamiento.iml" />
     </modules>
   </component>
 </project>
