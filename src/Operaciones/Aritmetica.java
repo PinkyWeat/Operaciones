@@ -17,17 +17,17 @@ public class Aritmetica {
     }
 
     public void sumar(){
-        int resultado = a + b;
+        int resultado = this.a + this.b;
         System.out.println("resultado = " + resultado);
     }
 
     public int sumarConRetorno() {
-        return a + b;
+        return this.a + this.b;
     }
 
     public int sumarConArgumentos(int arg1, int arg2){
-        a = arg1;
-        b = arg2;
+        this.a = arg1;
+        this.b = arg2;
         return sumarConRetorno();
     }
 }
