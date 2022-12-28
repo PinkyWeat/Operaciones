@@ -8,18 +8,21 @@ public class PruebaPersona {
         Persona persona1 = new Persona("Juan", 5000.00, false);
         System.out.println("persona1.getNombre() = " + persona1.getNombre()); 
         persona1.setNombre("Juan Carlos");
-        System.out.println("persona1.getNombre() = " + persona1.getNombre());
-        System.out.println("persona1.getSueldo() = " + persona1.getSueldo());
-        System.out.println("persona1.isEliminado() = " + persona1.isEliminado());
+        // System.out.println("persona1.getNombre() = " + persona1.getNombre());
+        // System.out.println("persona1.getSueldo() = " + persona1.getSueldo());
+        // System.out.println("persona1.isEliminado() = " + persona1.isEliminado());
+        System.out.println("persona1.toString() = " + persona1);
         
         // My Obj
         Persona persona2 = new Persona("Pamela", 600000.00, false);
         System.out.println("persona2.getNombre() = " + persona2.getNombre());
         persona2.setNombre("Maria Pamela");
-        System.out.println("persona2.getNombre() = " + persona2.getNombre());
-        System.out.println("persona2.getSueldo() = " + persona2.getSueldo());
-        System.out.println("persona2.isEliminado() = " + persona2.isEliminado());
+        System.out.println("persona2.toString() = " + persona2);
+        //System.out.println("persona2.getNombre() = " + persona2.getNombre());
+        //System.out.println("persona2.getSueldo() = " + persona2.getSueldo());
+        //System.out.println("persona2.isEliminado() = " + persona2.isEliminado());
         persona2.setSueldo(700000.00);
-        System.out.println("persona2.getSueldo() = " + persona2.getSueldo());
+        // System.out.println("persona2.getSueldo() = " + persona2.getSueldo());
+        System.out.println("persona2 = " + persona2);
     }
 }
