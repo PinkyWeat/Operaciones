@@ -5,10 +5,15 @@ public class Empleado extends Persona{
     private double sueldo;
     private static int contadorEmpleado;
 
-    public Empleado(String nombre, double sueldo) {
-        super(nombre);
-        this.sueldo = sueldo;
+    public Empleado(){
+        // super(); no esta puesto pero compilador lo pone
+        // llama al constructor vacio de la clase padre
         this.idEmpleado = ++Empleado.contadorEmpleado;
+    }
+    public Empleado(String nombre, double sueldo) {
+        this(); // con esto vas al constructor vacio y luego continua
+        this.nombre = nombre;
+        this.sueldo = sueldo;
     }
 
     public int getIdEmpleado() {
