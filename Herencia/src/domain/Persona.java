@@ -59,11 +59,13 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona [ " +
-                "nombre=" + nombre +
-                " | genero=" + genero +
-                " | edad=" + edad +
-                " | direccion='" + direccion +
-                " ]";
+        StringBuilder sb = new StringBuilder();
+        sb.append("Persona [ nombre=").append(nombre);
+        sb.append(" | genero=").append(genero);
+        sb.append(" | edad=").append(edad);
+        sb.append(" | direccion=").append(direccion);
+        sb.append(" ]");
+        sb.append("\n\t\t\tIn memory:").append(super.toString());
+        return sb.toString();
     }
 }
