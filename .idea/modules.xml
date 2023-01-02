@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arreglos/Arreglos.iml" filepath="$PROJECT_DIR$/Arreglos/Arreglos.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContextoEstatico/ContextoEstatico.iml" filepath="$PROJECT_DIR$/ContextoEstatico/ContextoEstatico.iml" />
       <module fileurl="file://$PROJECT_DIR$/Herencia/Herencia.iml" filepath="$PROJECT_DIR$/Herencia/Herencia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operaciones.iml" filepath="$PROJECT_DIR$/Operaciones.iml" />
